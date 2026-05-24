@@ -1,0 +1,16 @@
+# Compiler outputs
+*.o
+*.obj
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# Git ignore folders
+release/
+.system_generated/
+.vs/
+build/
+bin/
+out/

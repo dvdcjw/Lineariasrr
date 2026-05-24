@@ -1,0 +1,18 @@
+# DirectInput Force Feedback Look-Up Table (LUT)
+# Format: InputForceRatio, OutputForceRatio
+# Separated by comma, space, tab, or pipe (|).
+# Both values must be between 0.0 and 1.0.
+# The wrapper will read this file, sort the values, and perform linear interpolation.
+#
+# Use this to correct non-linearity or deadzones in your steering wheel's motor.
+# For example, if your wheel has a 5% deadzone, you can map 0.02 (2% force) to 0.08 (8% force) to make it responsive.
+#
+0.0, 0.0
+0.02, 0.08    # Example: Deadzone compensation (input 2% force maps to output 8% force)
+0.05, 0.13    # Example: Deadzone compensation (input 5% force maps to output 13% force)
+0.10, 0.19
+0.20, 0.29
+0.40, 0.49
+0.60, 0.66
+0.80, 0.83
+1.00, 1.00
