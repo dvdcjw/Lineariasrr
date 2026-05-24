@@ -1,4 +1,4 @@
-# Lineariasrr - DirectInput 8 Force Feedback (FFB) LUT Wrapper
+# Lineariasrr - A Universual DirectInput 8 based Force Feedback (FFB) LUT Wrapper
 
 A lightweight, per-game DirectInput 8 (`dinput8.dll`) proxy wrapper designed to intercept steering wheel Force Feedback commands, apply a custom Look-Up Table (LUT), and send the linearized output forces to the physical wheel base.
 
